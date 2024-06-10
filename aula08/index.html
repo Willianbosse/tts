@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resp_central</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<style>
+    
+    body{
+        background-color: rgb(254, 255, 254);
+        color: rgb(7, 0, 5);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+h1 {
+
+    border-style: solid;
+
+border-width: 5pt;
+
+background-color: rgb(243, 240, 240);
+
+color: rgb(8, 8, 8);
+
+text-align:center;
+
+}
+
+
+img.grande    {
+display: block;
+border-style: solid;
+position: relative;
+margin: auto;
+border-radius: 10pt;
+filter: drop-shadow(15px 15px 10px rgb(4, 8, 233));
+
+
+
+
+}
+
+img.maxima {
+
+    display: block;
+
+    border-style: solid;
+    
+    max-width: 100%;
+
+    position: relative;
+
+    margin: auto;
+
+    border-radius: 10pt;
+
+    filter: drop-shadow(5px 15px 10px rgb(250, 4, 4));
+
+
+}
+
+img.fixa {
+    display: block;
+    border-width: 2pt;
+border-style: solid;
+position: relative;
+margin: auto;
+border-radius: 10pt;
+filter: drop-shadow(15px 15px 10px rgb(233, 19, 4));
+
+}
+</style>
+<body>
+    <h1> Responsividade de web sites e centralização de imagens</h1>
+
+    <hr>
+
+    <H2>A seguir tem uma imagem de um lagarto colorido usando a propriedade width usando 100% da sua tela idependente de qual aparelho estiver utilizando</H2>
+
+    <img src="imagen/imagen1200.jpg" class='grande' alt="imagen1200" width='80%'>
+
+    <hr>
+
+    <h3>A imagem a seguir, é uma imagem que terá no maximo, uma largura igual e sua largura original, atraves do uso da propriedade css max - width</h3>
+
+    <img src="imagen/imagen700.jpg" class='maxima' alt="imagen700" >
+
+
+    <hr>
+
+    <h3>terceira imagem mosta a diferença Responsividade e sem Responsividade</h4>
+
+    <figure><img src="imagen/imagen1200.jpg" class='fixa' alt="imagen1200"> 
+
+    <caption>lagarto </caption>
+</figure>
+
+<hr>
+
+<hr>
+
+</body>
+
+</html>
